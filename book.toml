@@ -1,0 +1,6 @@
+[book]
+authors = ["Mikko Kujala"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Satisfactory dedicated server guide"
