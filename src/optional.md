@@ -34,13 +34,14 @@ wsl$ scp ~/.ssh/id_ed25519.pub username@server:~/.ssh
 Unless a password was used with the keys, login shouldn't ask for one now
 either.
 
-#### Disabling password-login
+### Windows
+[Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+can also be used to generate keys, and it can also work as a client program
+to the server.
+
+### Disabling password-login
 Once login with keys works, it is possible to disable logging in using
 password. Use nano to edit */etc/sshd_config* and change the
 `PasswordAuthentication yes` line to `PasswordAuthentication no` and
 uncomment it.
 
-### Windows
-[Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
-can also be used to generate keys, and it can also work as a client program
-to the server.
